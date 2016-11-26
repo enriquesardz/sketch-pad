@@ -1,11 +1,10 @@
 body {
 	margin: 0;
+	background-color: #f9f9f9;
 }
 
 nav{
-	top: 0;
-	margin: 0;
-	left: 0;
+	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
 	width: 100%;
@@ -15,10 +14,32 @@ nav{
 
 nav > h1{
 	padding: 5px;
+	font-family: arial, sans-serif;
 }
 
-main{
+main {
 	height: 100%;
 	width: 100%;
-	background-color: #f9f9f9;
+}
+
+main > div{
+	margin: 10px 10px auto;
+	float: left;
+}
+
+#container{
+	height: 550px;
+	width:550px;
+	border-style: solid;
+}
+
+.buttonCV{
+	background-color: #A8E5C9;
+	padding: 5px;
+
+}
+
+.buttonCV:hover{
+	background-color: #A8E5D1;
+	cursor:pointer;
 }
