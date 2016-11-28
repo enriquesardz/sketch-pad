@@ -13,8 +13,19 @@
 
 		<main>
 			<div id="container"></div>
-			<div class="buttonCV" onclick="cleanGrid()"><p>Clear grid</p></div>
-			<div class="buttonCV" onclick="changeValue()"><p>Change grid</p></div>
+			<div class="button" onclick="cleanGrid()"><p>Clear grid</p></div>
+			<div class="button" onclick="changeValue()"><p>Change grid</p></div>
+			<select class="button" id="colors">
+				<option value="default">Select an option</option>
+				<option value="black">Black</option>
+				<option value="rainbow">Rainbow</option>
+				<option value="shadow">Shadow</option>
+			</select>
+			<div id="info">
+				<p>The Odin Project - Javascript/jQuery Project</p>
+				<span>Sketchpad created using jQuery/Javascript, part of the course 
+				at <a href="http://www.theodinproject.com" target="_blank">www.theodinproject.com</a>.</span>
+			</div>
 		</main>
 
 	</body>

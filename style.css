@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-	background-color: #f9f9f9;
+	background-color: #737373;
+	font-family: Impact,Charcoal,sans-serif;
 }
 
 nav{
@@ -8,13 +9,15 @@ nav{
 	padding: 0;
 	overflow: hidden;
 	width: 100%;
-	background-color: #f0f0f0;
+	background-color: #000000;
 	height: 60px;
 }
 
 nav > h1{
-	padding: 5px;
-	font-family: arial, sans-serif;
+	padding: 10px;
+	margin: 5px;
+	color: #0099e6;
+	text-shadow: 0 0 20px #29a3a3;
 }
 
 main {
@@ -33,13 +36,18 @@ main > div{
 	border-style: solid;
 }
 
-.buttonCV{
-	background-color: #A8E5C9;
+.button{
+	background-color: #0099e6;
 	padding: 5px;
-
+	border-radius: 15px;
 }
 
-.buttonCV:hover{
-	background-color: #A8E5D1;
+.button:hover{
+	background-color: #33bbff;
 	cursor:pointer;
+}
+
+select{
+	padding: 5px;
+	margin: 25px;
 }
